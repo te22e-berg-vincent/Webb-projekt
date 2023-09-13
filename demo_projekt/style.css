@@ -7,3 +7,42 @@ p{color:hwb(0 0% 0%);}
 li{background-color:rgb(255, 200, 106);}
 li{color:hwb(0 100% 0%) ;}
 body{background-color: rgb(42, 42, 42);}
+
+
+
+
+
+.vit_text_svart_bak{
+    color: rgb(255, 255, 255)
+    ;
+    background-color: black;
+    font-family: "Oswald", Verdana;
+}
+.box_modell{
+border: 2px solid color(srgb rgb(47, 38, 38) green blue);
+margin-left: 20%;
+margin-right: 20%;
+padding-top: 25px;
+padding-bottom: 25px;
+max-width: 500px;
+min-width: 300px;
+}
+
+.artikel_container{
+flex-direction: row;
+flex-wrap: wrap;
+gap: 10px;
+border: 3px;
+display: flex;
+}
+
+.Artikel            {
+    max-width: 30%;
+min-width: 30%;
+border: 3px color( rgb(83, 83, 83) green blue);
+flex-direction: column;
+align-items: center;
+display: flex;
+
+}
+
